@@ -14,7 +14,7 @@
 <nav aria-label="Language"><a href="#korean" lang="ko">한국어</a><a href="#english" lang="en">English</a></nav>
 <section id="korean" lang="ko">
 <h1>Winged 개인정보처리방침</h1>
-<p class="meta">앱: Winged File Browser (Winged)<br>개발자: uginong<br>패키지: com.uginong.winged<br>시행일: 2026년 10월 19일</p>
+<p class="meta">앱: Winged File Browser (Winged)<br>개발자: uginong<br>패키지: com.uginong.winged<br>시행일: 2026년 11월 5일</p>
 <p>이 방침은 Android용 Winged의 개인정보 및 파일 처리 방식을 설명합니다. Winged는 기기와 사용자가 지정한 저장소의 파일을 관리하는 앱입니다. 현재 버전은 개발자가 운영하는 서버로 파일, 연결 암호 또는 사용 기록을 자동 전송하지 않으며 광고·이용 분석 SDK를 포함하지 않습니다.</p>
 <h2>1. 접근하고 처리하는 정보</h2>
 <ul>
@@ -22,13 +22,14 @@
 <li><strong>연결 설정:</strong> 사용자가 입력한 서버 주소, 포트, 공유 경로, 사용자명, 암호 및 서버 신뢰 정보를 연결과 인증에 사용합니다. 설정은 앱의 기기 내 전용 영역에 저장하고, 저장하는 연결 암호는 Android Keystore의 키로 암호화합니다. 서버 주소 등 모든 설정 항목을 암호화하는 것은 아닙니다.</li>
 <li><strong>앱 사용 설정:</strong> 즐겨찾기, 최근 방문, 탭·경로 세션, 보기·정렬, 언어 및 기타 설정을 기기에 보관합니다. 최근 방문 기록은 설정에서 끌 수 있습니다.</li>
 <li><strong>캐시 및 작업 기록:</strong> 썸네일, 원격 파일의 보기·재생용 사본, 임시 변환 파일, 전송 상태·이력과 휴지통 복원 정보를 기능 제공 및 중단된 작업 복구에 사용합니다.</li>
-<li><strong>구매 정보:</strong> Google Play Billing에서 전달받은 상품 ID, 구매 상태, 구매 토큰 및 서명된 구매 데이터를 Pro 확인·구매 복원에 사용하고 검증된 영수증을 기기에 보관합니다. 개발자는 앱을 통해 카드번호 등 결제수단의 상세정보를 받지 않습니다.</li>
+<li><strong>구매 정보:</strong> Google Play Billing에서 전달받은 상품 ID, 구매 상태, 구매 토큰 및 서명된 구매 데이터를 Pro 확인·구매 복원에 사용하고 검증된 영수증을 기기에 보관합니다. 개발자는 앱을 통해 카드번호 등 결제수단의 상세정보를 받지 않습니다. 심사용 액세스 코드를 입력하면 코드를 기기에 저장하고 실제 구매 기록과 별도로 유효성을 확인합니다.</li>
 <li><strong>기기 내 오류 진단:</strong> 오류 유형, 코드 위치, 발생 시각, 앱 종료 사유와 메모리 관련 수치를 제한적으로 기기에 기록합니다. 진단 기록은 자동 업로드하지 않으며 오류 메시지, 계정, 서버 주소, 사용자 파일 경로 또는 파일 내용을 기록하도록 구성하지 않았습니다.</li>
 </ul>
 <h2>2. 네트워크 전송과 외부 제공</h2>
 <p>원격 저장소 기능은 사용자가 지정한 SMB, FTP, FTPS, SFTP 또는 WebDAV 서버로 연결·인증 정보와 요청에 필요한 파일 및 메타데이터를 전송합니다. 해당 서버의 운영자가 처리하는 정보에는 그 운영자의 정책이 적용됩니다. FTP와 HTTP 등 암호화되지 않은 연결에서는 통신 내용이 전송 중 암호화되지 않을 수 있습니다.</p>
 <p>공유, 다른 앱으로 열기, 외부 앱의 파일 선택 기능을 사용하면 선택한 파일과 관련 메타데이터를 사용자가 선택하거나 파일 접근을 허용한 앱에 제공합니다. 기기에서 HTTP·FTP 서버를 시작하면 서버를 통해 앱 저장소의 파일을 접속한 기기에 제공하며, 허용된 업로드·쓰기 요청은 파일을 변경할 수 있습니다. 현재 HTTP 서버는 로그인 없이 접근할 수 있으므로 신뢰하는 네트워크에서만 켜고 사용 후 종료하세요.</p>
 <p>인앱 결제는 Google Play가 처리하며 Google의 정책이 적용됩니다. 개발자는 사용자 정보를 판매하거나 광고 프로파일링에 사용하지 않습니다. 문의 이메일을 보내는 경우 이메일 주소와 문의 내용을 답변 및 문제 해결에 사용합니다.</p>
+<p>Android의 백업 및 복원이 사용 설정된 경우, 아래의 설정 복원용 정보가 운영체제의 백업·기기 이전 기능을 통해 Google 계정의 백업 저장소 또는 새 기기로 전송될 수 있습니다. 백업의 실행·보관·삭제는 Android, 사용자의 백업 설정 및 백업 제공자의 정책에 따릅니다. 개발자가 운영하는 서버로 백업하지 않습니다.</p>
 <h2>3. 권한</h2>
 <p>파일 관리를 위한 저장소 접근, 원격 저장소·기기 서버를 위한 네트워크 접근, 백그라운드 전송·재생·서버를 위한 포그라운드 서비스 및 알림, 사용자가 요청한 APK 설치를 위한 설치 권한을 기능에 따라 사용합니다. 저장소 접근과 알림 등 관리 가능한 권한은 Android 설정에서 변경할 수 있습니다. APK 설치는 Android의 설치 확인 절차를 따릅니다.</p>
 <h2>4. 보관 및 삭제</h2>
@@ -39,14 +40,17 @@
 <li>Android에서 앱 데이터를 삭제하거나 앱을 제거하면 기기 내 앱 전용 정보가 삭제됩니다. 앱 밖에 저장·내보낸 파일, 원격 서버의 파일, 다른 앱에 전달한 사본과 Google Play 구매 기록은 별도로 관리해야 합니다. 앱 제거 전 앱 저장소에서 필요한 파일을 내보내세요.</li>
 <li>문의 이메일은 응대에 필요한 동안 보관하며, 삭제 요청은 아래 이메일로 접수할 수 있습니다. 법령상 보관 의무가 있는 경우 해당 의무에 따릅니다.</li>
 </ul>
+<h3>자동 백업 및 새 기기 복원</h3>
+<p>앱은 일반 설정(언어, 보기·정렬, 저장 위치 표시, 캐시 정책, 슬라이드쇼 설정 등), 즐겨찾기와 저장된 연결의 메타데이터만 설정 복원용으로 백업합니다. 연결 메타데이터에는 연결 이름, 서버 주소, 포트, 공유·시작 경로, 사용자명·도메인, 프로토콜과 연결 옵션이 포함됩니다. 즐겨찾기에는 폴더 이름과 경로가 포함되므로 이 정보에도 개인정보가 포함될 수 있습니다.</p>
+<p>연결 비밀번호와 암호화 키, 저장된 SSH 호스트 키·TLS 인증서 신뢰 정보, 구매 영수증·심사 액세스 코드, 사용자 파일·앱 저장소 파일, 캐시·임시 파일, 최근 방문·탭 세션, 전송·휴지통 기록, 오류 진단 및 저장소 접근 허용 정보는 백업하지 않습니다. 새 기기에서 연결 비밀번호와 필요한 접근 권한을 다시 제공하고 서버 신뢰 정보를 다시 확인해야 할 수 있습니다. Pro 구매 복원은 Google Play에서 별도로 처리합니다. 앱을 제거하거나 설정을 초기화하는 것만으로 운영체제의 기존 백업 사본이 삭제되는 것은 아닙니다. 해당 사본은 기기의 백업 관리 기능이나 백업 제공자를 통해 관리하세요.</p>
 <h2>5. 보호 조치와 변경</h2>
-<p>앱 전용 저장 영역, 연결 암호 암호화 및 지원 프로토콜의 보안 기능을 사용합니다. 앱은 Android 자동 백업·기기 이전 대상에서 앱 데이터를 제외하도록 구성되어 있습니다. 기기·서버 설정과 선택한 프로토콜에 따라 보안 수준은 달라질 수 있습니다. 처리 방식이 바뀌면 이 페이지의 내용과 시행일을 갱신합니다.</p>
+<p>앱 전용 저장 영역, 연결 암호 암호화 및 지원 프로토콜의 보안 기능을 사용합니다. Android 자동 백업·기기 이전에는 위에 명시한 설정 복원용 정보만 포함합니다. 기기·서버 설정과 선택한 프로토콜에 따라 보안 수준은 달라질 수 있습니다. 처리 방식이 바뀌면 이 페이지의 내용과 시행일을 갱신합니다.</p>
 <h2>6. 문의</h2>
 <p>개발자: uginong<br>개인정보 관련 문의·삭제 요청: <a href="mailto:bamboowifebad@gmail.com">bamboowifebad@gmail.com</a></p>
 </section>
 <section id="english" lang="en">
 <h1>Winged Privacy Policy</h1>
-<p class="meta">App: Winged File Browser (Winged)<br>Developer: uginong<br>Package: com.uginong.winged<br>Effective date: October 19, 2026</p>
+<p class="meta">App: Winged File Browser (Winged)<br>Developer: uginong<br>Package: com.uginong.winged<br>Effective date: November 5, 2026</p>
 <p>This policy explains how Winged for Android handles information and files. Winged manages files on your device and storage locations you choose. The current version does not automatically send your files, connection passwords or usage history to a developer-operated server, and includes no advertising or usage analytics SDK.</p>
 <h2>1. Information accessed and processed</h2>
 <ul>
@@ -54,13 +58,14 @@
 <li><strong>Connection settings:</strong> Server addresses, ports, share paths, usernames, passwords and server trust information you provide are used for connection and authentication. Settings are stored in app-private storage on your device. Saved connection passwords are encrypted using a key held by Android Keystore; not every setting, such as a server address, is encrypted.</li>
 <li><strong>Preferences:</strong> Favorites, recent locations, tab/path sessions, view and sort options, language and other settings are stored on your device. Recent location tracking can be disabled in settings.</li>
 <li><strong>Caches and operation records:</strong> Thumbnails, remote file copies for viewing/playback, temporary converted files, transfer status/history and trash restoration information support app functions and interrupted operation recovery.</li>
-<li><strong>Purchases:</strong> Product identifiers, purchase status, purchase tokens and signed purchase data received through Google Play Billing are used to verify and restore Pro. Verified receipts are stored on your device. The developer does not receive payment card numbers or other payment instrument details through the app.</li>
+<li><strong>Purchases:</strong> Product identifiers, purchase status, purchase tokens and signed purchase data received through Google Play Billing are used to verify and restore Pro. Verified receipts are stored on your device. The developer does not receive payment card numbers or other payment instrument details through the app. If you enter a review access code, it is saved on your device and validated separately from purchase receipts.</li>
 <li><strong>Local diagnostics:</strong> Limited records of error types, code locations, timestamps, process exit reasons and memory figures are stored on your device. They are not automatically uploaded and are not configured to record exception messages, accounts, server addresses, user file paths or file contents.</li>
 </ul>
 <h2>2. Network communication and disclosure</h2>
 <p>Remote storage features communicate connection/authentication information, requested files and necessary metadata with SMB, FTP, FTPS, SFTP or WebDAV servers you specify. The server operator's policies govern its handling of information. Unencrypted protocols, including FTP and HTTP, may transmit information without transport encryption.</p>
 <p>Sharing, opening in another app and external file selection make chosen files and associated metadata available to apps you select or authorize. When you start the device HTTP/FTP server, connected devices can access files in the app storage, and permitted upload/write requests can modify files. The current HTTP server allows access without login; enable it only on a trusted network and stop it after use.</p>
 <p>Google Play processes in-app payments under Google's policies. The developer does not sell user information or use it for advertising profiling. If you email support, your email address and message are used to respond and resolve your inquiry.</p>
+<p>When Android backup and restore are enabled, the settings restoration information described below may be transferred to backup storage associated with your Google account or to your new device through operating-system backup and device-transfer features. Backup execution, retention and deletion depend on Android, your backup settings and the backup provider's policies. Backups are not sent to a developer-operated server.</p>
 <h2>3. Permissions</h2>
 <p>Depending on the feature, Winged uses storage access for file management, network access for remote storage/device servers, foreground services and notifications for background transfers/playback/servers, and installation permission for APK installation you request. Manage available storage and notification permissions in Android settings. APK installation remains subject to Android's installation confirmation.</p>
 <h2>4. Retention and deletion</h2>
@@ -71,8 +76,11 @@
 <li>Clearing app data or uninstalling through Android removes app-private information. Exported files outside app storage, remote server files, copies shared with other apps and Google Play purchase records require separate management. Export any files you need from app storage before uninstalling.</li>
 <li>Support emails are retained as needed to handle your inquiry. You can request deletion at the address below, subject to applicable legal retention obligations.</li>
 </ul>
+<h3>Automatic backup and new-device restoration</h3>
+<p>The app backs up only general preferences (including language, view and sort options, location visibility, cache policy and slideshow settings), favorites and saved connection metadata for settings restoration. Connection metadata includes the connection name, server address, port, share and starting paths, username and domain, protocol and connection options. Favorites include folder names and paths. These details may contain personal information.</p>
+<p>Connection passwords and encryption keys, saved SSH host-key and TLS certificate trust information, purchase receipts and review access codes, user files and app-storage files, caches and temporary files, recent locations and tab sessions, transfer and trash records, diagnostics and storage access grants are excluded. On a new device, you may need to re-enter connection passwords, grant required access and verify server trust again. Pro purchases are restored separately through Google Play. Uninstalling the app or resetting its settings does not itself delete existing operating-system backup copies. Manage those copies through your device's backup settings or backup provider.</p>
 <h2>5. Safeguards and changes</h2>
-<p>Winged uses app-private storage, encrypted connection passwords and security features of supported protocols. The app is configured to exclude its data from Android automatic backup and device transfer. Security also depends on your device, server configuration and chosen protocol. Changes to information handling will be reflected on this page with an updated effective date.</p>
+<p>Winged uses app-private storage, encrypted connection passwords and security features of supported protocols. Android automatic backup and device transfer include only the settings restoration information listed above. Security also depends on your device, server configuration and chosen protocol. Changes to information handling will be reflected on this page with an updated effective date.</p>
 <h2>6. Contact</h2>
 <p>Developer: uginong<br>Privacy inquiries and deletion requests: <a href="mailto:bamboowifebad@gmail.com">bamboowifebad@gmail.com</a></p>
 </section>
